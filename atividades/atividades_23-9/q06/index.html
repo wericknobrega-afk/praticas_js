@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Nota Final - IFCE</title>
+</head>
+<body>
+
+    <h2>Calculadora de Nota Final (IFCE - Técnico Subsequente)</h2>
+
+    <label for="nota1">Nota da Etapa N1 (Peso 2):</label>
+    <input type="number" id="nota1" placeholder="Ex: 7.0" step="0.1" min="0" max="10"><br><br>
+
+    <label for="nota2">Nota da Etapa N2 (Peso 3):</label>
+    <input type="number" id="nota2" placeholder="Ex: 5.5" step="0.1" min="0" max="10"><br><br>
+
+    <button onclick="calcularNotaFinal()">Calcular Nota Final</button>
+
+    <p id="resultado"></p>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
