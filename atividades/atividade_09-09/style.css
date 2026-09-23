@@ -1,0 +1,79 @@
+/* Configurações gerais */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+/* Título */
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Formulário */
+form {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Campos de entrada */
+input {
+  padding: 10px;
+  font-size: 16px;
+
+  border: 1px solid #ccc;
+  border-radius: 6px;
+
+  margin-bottom: 10px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
+
+/* Botão */
+button {
+  padding: 12px;
+
+  font-size: 16px;
+  font-weight: bold;
+
+  color: white;
+  background-color: #4a90e2;
+
+  border: none;
+  border-radius: 6px;
+
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #357abd;
+}
+
+/* Informações exibidas pelo JavaScript */
+p {
+  background-color: white;
+  padding: 12px 15px;
+
+  border-radius: 6px;
+
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+#nomeUsuario,
+#idadeUsuario {
+  display: none;
+}
